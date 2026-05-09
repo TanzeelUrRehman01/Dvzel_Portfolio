@@ -115,7 +115,7 @@ export default function Navbar() {
           ))}
 
           <motion.a
-            href="public\resume\Tanzeel_Ur_Rehman.pdf"
+            href="public\Tanzeel_Ur_Rehman.pdf"
             target="_blank"
             rel="noopener noreferrer"
             whileHover={{ scale: 1.05, boxShadow: "0 0 20px rgba(0,212,255,0.25)" }}
@@ -166,7 +166,7 @@ export default function Navbar() {
                 {label}
               </button>
             ))}
-            <a href="../assets/resume/Tanzeel_Ur_Rehman.pdf" target="_blank" rel="noopener noreferrer" style={{ marginTop: 12, padding: "12px 0", textAlign: "center", background: "rgba(0,212,255,0.08)", border: "1px solid rgba(0,212,255,0.3)", borderRadius: 8, color: "var(--accent-cyan)", fontFamily: "Outfit", fontSize: "0.85rem", fontWeight: 700, textDecoration: "none" }}>↗ VIEW RESUME</a>
+            <a href="public\Tanzeel_Ur_Rehman.pdf" target="_blank" rel="noopener noreferrer" style={{ marginTop: 12, padding: "12px 0", textAlign: "center", background: "rgba(0,212,255,0.08)", border: "1px solid rgba(0,212,255,0.3)", borderRadius: 8, color: "var(--accent-cyan)", fontFamily: "Outfit", fontSize: "0.85rem", fontWeight: 700, textDecoration: "none" }}>↗ VIEW RESUME</a>
           </motion.div>
         )}
       </AnimatePresence>

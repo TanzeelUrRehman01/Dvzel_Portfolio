@@ -81,7 +81,7 @@ export default function About() {
                     >
                       {/* Profile Image */}
                       <img
-                        src="../assets/profile_image.png" // replace with your actual image path
+                        src="public\profile_image.png" // replace with your actual image path
                         alt="Tanzeel Ur Rehman"
                         style={{
                           width: "100%",
